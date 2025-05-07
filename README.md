@@ -23,7 +23,7 @@
 ## 4.  Questions , Key Findings and Insights<br>
 1. ### Which teams have the highest and lowest average player salaries per year?
 
-![Query 1](images\highest_lowest_player_salary_year.png)
+![Query 1](images/highest_lowest_player_salary_year.png)
 <br>
 <br>
 <br>
