@@ -108,7 +108,7 @@ Top 8 teams in terms of salary spending between 1985 and 2014 are
 
 4. ### What is the salary maximum , minimum and average based on batting handedness (R, L, B)?
 
-![Query 4](images/carbon%20(5).png)
+![Query 4](images\carbon%20(5).png)
 
 ![Plot Max](images/max.png)
 ![Plot Average](images/average.png)
