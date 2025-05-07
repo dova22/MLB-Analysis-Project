@@ -11,7 +11,7 @@
 
     1. Salaries: Contains MLB player salary data with the following columns: yearID, teamID, lgID (league ID), playerID, and salary (Time coverage: 1985 to 2014).
 
-    2. Players: Contains detailed information about each player (e.g., name, birth date, batting\throwing hand, and other demographics).
+    2. Players: Contains detailed information about each player (e.g., name, birth date, batting/throwing hand, and other demographics).
 
     3. CollegePlaying: Links players to the schools they attended, using playerID and schoolID.
 
@@ -34,11 +34,11 @@ MLB Teams are increasing across years with the ***New York Yankees(NYA)*** havin
 <br>
 <br>
 <br>
-![Plot 1](images\highest_lowest_player_salary_year_plot.png)
+![Plot 1](images/highest_lowest_player_salary_year_plot.png)
 
 2. #### Which players had the highest salaries each year — and how did that change over time?
 
-![Query 2](images\highest_salaries.png)
+![Query 2](images/highest_salaries.png)
 <br>
 <br>
 <br>
@@ -83,7 +83,7 @@ throughout the year which is **Alexander Emmanuel** being the highest paid playe
 
 3. ### Which teams were in the top 20% in terms of average annual spending?
 
-![Query 3](images\carbon%20(4).png)
+![Query 3](images/carbon%20(4).png)
 
 Top 8 teams in terms of salary spending between 1985 and 2014 are 
 1. New York Yankees
@@ -108,11 +108,11 @@ Top 8 teams in terms of salary spending between 1985 and 2014 are
 
 4. ### What is the salary maximum , minimum and average based on batting handedness (R, L, B)?
 
-![Query 4](images\carbon%20(5).png)
+![Query 4](images/carbon%20(5).png)
 
-![Plot Max](images\max.png)
-![Plot Average](images\average.png)
-![Plot Min](images\min.png)
+![Plot Max](images/max.png)
+![Plot Average](images/average.png)
+![Plot Min](images/min.png)
 
 Based on the charts, the average player salary has been steadily increasing over the years, regardless of batting hand. However, the differences in average salary between batting hands (right-handed, left-handed, and switch hitters) are relatively minor.
 
@@ -121,9 +121,9 @@ When focusing on the top salaries, right-handed batters tend to dominate the upp
 This suggests that while right-handed batters may include some of the highest-paid players, they also make up a significant portion of lower-salaried individuals, potentially due to their higher population in the league.
 
 5. ### Salary distribution based on batting handedness (R, L, B)?
-![Query 5](images\carbon.png)
+![Query 5](images/carbon.png)
 
-![Plot](images\salaries_dist.gif.gif)
+![Plot](images/salaries_dist.gif.gif)
 we can see from the plot above the distribution of salaries across batting hands
 we can see that there is a clear increase in salary across the years and salaries tend to
 be right skewed across the 3 batting hands with the majority of players tend to be right batting players
@@ -131,34 +131,34 @@ be right skewed across the 3 batting hands with the majority of players tend to 
 
 
 6. ### Which schools have produced the most MLB players?
-![Query 6](images\carbon%20(7).png)
-![Plot 6](images\schools_players_num.png)
+![Query 6](images/carbon%20(7).png)
+![Plot 6](images/schools_players_num.png)
 ---
 
 An interesting observation from the analysis of top schools that produce players is that the top three schools are all located in **southern states**. This suggests that there may be regional factors at play that contribute to the development of baseball talent in the South. Factors such as climate, access to resources, youth programs, and sports culture in southern states could play a significant role in nurturing future baseball players.
 
 ---
 7. ### What is the distribution of batting handedness (left, right, both) across teams?
-![Query 7](images\carbon%20(8).png)
-![Plot 7](images\batters_distribution.png)
+![Query 7](images/carbon%20(8).png)
+![Plot 7](images/batters_distribution.png)
 
 From the graph, it's evident that right-handed batters dominate in terms of numbers across teams. This trend aligns with the general demographic distribution of right-handed individuals in the population. The prevalence of right-handed batters likely influences team composition and strategy, as teams tend to have a higher proportion of right-handed players. Left-handed and switch hitters are notably fewer, which may have implications for player development and team diversity.
 8. ### Which year saw the greatest growth in average salaries?
-![Query 8](images\carbon%20(9).png)
-![Plot 8](images\pct_change.png)
+![Query 8](images/carbon%20(9).png)
+![Plot 8](images/pct_change.png)
 
 There is a big increase in average salaries in 1991 which was weird to me at first
 but this is the year where media deals and free contracts were introduced that showed a big percent change between the year 1990 and 1991.
 
 9. ### How do salary trends compare between the American League and National League?
-![Query 9](images\carbon%20(10).png)
+![Query 9](images/carbon%20(10).png)
 
-![Plot 9](images\leagues_comparison.png)
+![Plot 9](images/leagues_comparison.png)
 
 Based on the side-by-side comparison of the graphs, there is no significant difference between the average, minimum, and maximum salaries across the American and National Leagues. However, there is a noticeable trend between 2008 and 2013, where the maximum salary favored the American League. In the upcoming analysis, we will highlight a specific player associated with the peak salaries during those years (indicated by the circles in the graph).
 
 10. ### What are the average salaries of players by school?
-![Query 10](images\new_query.png)
+![Query 10](images/new_query.png)
 | Name Full                                | School Average Salary | Players Count |
 |------------------------------------------|-----------------------|---------------|
 | Missouri State University                | 2,518,167             | 11            |
@@ -173,7 +173,7 @@ Based on the side-by-side comparison of the graphs, there is no significant diff
 | University of Tennessee                  | 1,467,016             | 22            |
 
 11. ### Which player has the highest salary?
-![Query 11](images\carbon%20(12).png)
+![Query 11](images/carbon%20(12).png)
 | Name                | Highest Salary |
 |---------------------|----------------|
 | Alexander Emmanuel  | 33 million     |
@@ -181,13 +181,13 @@ Based on the side-by-side comparison of the graphs, there is no significant diff
 This player, who played for the New York Yankees, was frequently mentioned among the highest-paid athletes. His salary significantly contributed to the spike in both the average salaries of the Yankees and the difference in maximum salaries within the American League.
 
 12. ### What are the geographic trends in player origins (by country)?
-![Query 12](images\carbon%20(13).png)
-![Plot 12](images\country.png)
+![Query 12](images/carbon%20(13).png)
+![Plot 12](images/country.png)
 
 Most Players their birth Country is USA
 13. ### What are the geographic trends in player origins (by state)?
-![Query 13](images\carbon%20(14).png)
-![Plot 13](images\state.png)
+![Query 13](images/carbon%20(14).png)
+![Plot 13](images/state.png)
 
 Distribution of Players across each State 
 ## 6.  Technologies Used
